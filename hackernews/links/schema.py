@@ -21,7 +21,7 @@ class CreateLink(graphene.Mutation):
 
         return CreateLink(
             id=link.id,
-            url=link.url
+            url=link.url,
             description=link.description
         )
 
