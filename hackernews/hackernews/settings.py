@@ -128,7 +128,7 @@ AUTHENTICATION_BACKENDS = [
 
 GRAPHENE = {
     'SCHEMA': 'hackernews.schema.schema',
-    'MIDDLEWARE': [
+    'MIDDLEWARES': [
         'graphql_jwt.middleware.JSONWebTokenMiddleware',
     ],
 }
